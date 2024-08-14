@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultDiv.textContent = 'Correct';
             resultDiv.style.color = 'green';
             setTimeout(function() {
-            window.location.href = 'australia.html';
+            window.location.href = 'china_hard.html';
         }, 500);
         } else {
             resultDiv.textContent = 'Wrong';

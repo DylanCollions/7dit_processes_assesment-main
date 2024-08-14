@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('checker').addEventListener('click', function() {
-        const correctAnswer = 'russia'; 
+        const correctAnswer = 'india'; 
         const userAnswer = document.getElementById('tbox').value.trim().toLowerCase();
         const resultDiv = document.getElementById('result');
 
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultDiv.textContent = 'Correct';
             resultDiv.style.color = 'green';
             setTimeout(function() {
-            window.location.href = 'index.html';
+            window.location.href = 'japan_easy.html';
         }, 500);
         } else {
             resultDiv.textContent = 'Wrong';

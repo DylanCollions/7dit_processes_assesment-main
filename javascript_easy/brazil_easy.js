@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             resultDiv.textContent = 'Correct';
             resultDiv.style.color = 'green';
             setTimeout(function() {
-                window.location.href = 'japan.html';
+                window.location.href = 'england_easy.html';
             }, 500);
         } else {
             resultDiv.textContent = 'Wrong';

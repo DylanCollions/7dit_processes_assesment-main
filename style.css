@@ -80,6 +80,7 @@
 }
 
 #checker:hover {
+    cursor: pointer;
     background-color: lightgreen;
     transition: .4s ease all;
     transform: translateY(-1px);
