@@ -85,3 +85,7 @@
     transition: .4s ease all;
     transform: translateY(-1px);
 }
+
+#hintDIV {
+    display: none;
+  }
