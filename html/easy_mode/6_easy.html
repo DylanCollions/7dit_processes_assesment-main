@@ -15,23 +15,19 @@
                 <h1>Country <span>Guesser</span></h1>
             </div>
         <div class="instructions"> 
-            <h1>Which Country Is This Image From?</h1>
+            <h1>Which Country Is This Image From.</h1>
         </div>
         </div>
     </div>
-<div class = "container">
-<label>Guess:</label>
-<input type="text" id="tbox" placeholder=" Enter Guess" maxlenght="20">
-
-<button id="checker">Guess</button>
-<p class="output" id="output1"></p>
-<div id="result"></div>
-</div>
-<li><button onclick="hintFunction()">Hint</button>
-    <div id="hintDIV">
-        <p>The Colours On The Flag Are Red and White</p>
-    </div>
-</li>
+    <div class = "container">
+        <label>Guess:</label>
+        <input type="text" id="tbox" placeholder=" Enter Guess" maxlenght="20">
+        <button id="checker">Guess</button>
+        <p class="output" id="output1"></p>
+        <div id="result"></div>
+        <button onclick="hintFunction()" id="hint_button">Hint</button>
+                </div>
+                <p id="hintDIV"></p>
 <script src="/javascript_easy/6_easy.js"></script>
 <img src="/images_easy/japan_easy.png" alt="A street view of an asain looking city with Japanese langangue on the buildings" id="image">
 </body>

@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function hintFunction() {
     var x = document.getElementById("hintDIV");
+    document.getElementById("hintDIV").textContent = "On the left of the screen is the Sydney Opera House"
     if (x.style.display == "block") {
       x.style.display == "none";
     } else {

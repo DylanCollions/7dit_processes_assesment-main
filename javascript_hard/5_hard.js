@@ -18,10 +18,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function hintFunction() {
-    var x = document.getElementById("hintDIV");
-    if (x.style.display == "block") {
-      x.style.display == "none";
-    } else {
-      x.style.display = "block";
-    }
+  var x = document.getElementById("hintDIV");
+  document.getElementById("hintDIV").textContent = "Known For What Is At The End Of The Rainbow"
+  if (x.style.display == "block") {
+    x.style.display == "none";
+  } else {
+    x.style.display = "block";
   }
+}

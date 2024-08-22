@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function hintFunction() {
     var x = document.getElementById("hintDIV");
+     document.getElementById("hintDIV").textContent = "This Is a Spanish Speaking Country"
     if (x.style.display == "block") {
       x.style.display == "none";
     } else {
