@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function hintFunction() {
     var x = document.getElementById("hintDIV");
+    document.getElementById("hintDIV").textContent = "This Country flag uses White, Blue, Green, and Yellow"
     if (x.style.display == "block") {
       x.style.display == "none";
     } else {

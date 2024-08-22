@@ -18,10 +18,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 function hintFunction() {
-    var x = document.getElementById("hintDIV");
-    if (x.style.display == "block") {
-      x.style.display == "none";
-    } else {
-      x.style.display = "block";
-    }
+  var x = document.getElementById("hintDIV");
+  document.getElementById("hintDIV").textContent = "This County Hosted the 2024 Olympics"
+  if (x.style.display == "block") {
+    x.style.display == "none";
+  } else {
+    x.style.display = "block";
   }
+}

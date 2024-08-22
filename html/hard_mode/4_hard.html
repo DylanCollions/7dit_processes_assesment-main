@@ -12,26 +12,22 @@
     <div class="header">
         <div class="inner_header"> 
             <div class="logo_container">
-                <h1>County <span>Guesser</span></h1>
+                <h1>Country <span>Guesser</span></h1>
             </div>
         <div class="instructions"> 
-            <h1>which county is this image from</h1>
+            <h1>Which Country Is This Image From.</h1>
         </div>
         </div>
     </div>
 <div class = "container">
-<label>Guess:</label>
-<input type="text" id="tbox" placeholder=" Enter Guess" maxlenght="20">
-
-<button id="checker">Guess</button>
-<p class="output" id="output1"></p>
-<div id="result"></div>
-</div>
-<li><button onclick="hintFunction()">Hint</button>
-    <div id="hintDIV">
-        <p>Most Populated Country.</p>
-    </div>
-</li>
+    <label>Guess:</label>
+    <input type="text" id="tbox" placeholder=" Enter Guess" maxlenght="20">
+    <button id="checker">Guess</button>
+    <p class="output" id="output1"></p>
+    <div id="result"></div>
+    <button onclick="hintFunction()" id="hint_button">Hint</button>
+            </div>
+            <p id="hintDIV"></p>
 <script src="/javascript_hard/4_hard.js"></script>
 <img src="/images_hard/india_hard.png" alt="still photo of a street view in India" id="image">
 </body>

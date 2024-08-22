@@ -19,10 +19,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
 function hintFunction() {
-    var x = document.getElementById("hintDIV");
-    if (x.style.display == "block") {
-      x.style.display == "none";
-    } else {
-      x.style.display = "block";
-    }
+  var x = document.getElementById("hintDIV");
+  document.getElementById("hintDIV").textContent = "Has over 40 States in this country"
+  if (x.style.display == "block") {
+    x.style.display == "none";
+  } else {
+    x.style.display = "block";
   }
+}

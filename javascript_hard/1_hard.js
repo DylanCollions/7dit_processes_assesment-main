@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 function hintFunction() {
     var x = document.getElementById("hintDIV");
+    document.getElementById("hintDIV").textContent = "This Country has a lot of desert"
     if (x.style.display == "block") {
       x.style.display == "none";
     } else {
