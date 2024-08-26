@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geo_guesser</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- This code is the header on my page which containers the name of by Project and instuctions for the users. -->
     <div class="header">
-        <div class="inner_header"> 
-            <div class="logo_container">
-                <h1>Country <span>Guesser</span></h1>
-            </div>
-        <div class="instructions"> 
-            <h1>Which Country Is This Image From.</h1>
+      <div class="inner_header">
+        <div class="logo_container">
+          <h1>Country <span>Guesser</span></h1>
         </div>
+        <div class="instructions">
+          <h1>Which Country Is This Image From.</h1>
         </div>
+      </div>
     </div>
-    <div class = "container">
-        <label>Guess:</label>
-        <input type="text" id="tbox" placeholder=" Enter Guess" maxlenght="20">
-        <button id="checker">Guess</button>
-        <p class="output" id="output1"></p>
-        <div id="result"></div>
-        <button onclick="hintFunction()" id="hint_button">Hint</button>
-                </div>
-                <p id="hintDIV"></p>
-<script src="/javascript_easy/10_easy.js"></script>
-<img src="/images_easy/usa_easy.png" alt="Blue White and Red flag on a building" id="image">
-</body>
+    <!-- This container is resposable for the text box in which the user enters there guess a box they must click to confirm their guess and a hint button. -->
+    <div class="container">
+      <label>Guess:</label>
+      <input type="text" id="tbox" placeholder=" Enter Guess" maxlenght="20" />
+      <button id="checker">Guess</button>
+      <p class="output" id="output1"></p>
+      <div id="result"></div>
+      <button onclick="hintFunction()" id="hint_button">Hint</button>
+    </div>
+    <p id="hintDIV"></p>
+    <script src="/javascript_easy/10_easy.js"></script>
+    <!-- The code below is responsable for displaying the image by grabbing from the 'image_easy' flie -->
+    <img
+      src="/images_easy/usa_easy.png"
+      alt="Blue White and Red flag on a building"
+      id="image"
+    />
+  </body>
 </html>
